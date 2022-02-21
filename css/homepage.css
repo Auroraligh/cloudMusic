@@ -1,0 +1,84 @@
+.slideshow{
+    position: relative;
+    height: 250px;
+    width: 600px;
+    
+    margin: 0 auto;
+    
+}
+.slideshow>div{
+    position: absolute;
+    top:20px;
+    left:30px;
+    width: 540px;
+    height: 210px;
+    border-radius: 10px;
+    overflow: hidden;
+   
+    
+
+}
+.imgList li img{
+    width: 540px;
+
+}
+.imgList{
+    position: absolute;
+    
+}
+.imgList li{
+    float: left;
+}
+.navDiv{
+    position: absolute;
+    bottom: 10px;
+}
+.navDiv a{
+    float: left;
+    width: 6px;
+    height: 6px;
+    margin:0 6px;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+}
+.navDiv a:hover{
+    background-color: #ec4141;
+}
+.main{
+    width: 1100px;
+    margin: 0 auto;
+}
+.songList{
+    height: 50px;
+    width: 100%;
+    
+}
+.songList a{
+    float: left;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.songList a span{
+    font-size: x-large;
+}
+.songListBox div{
+    width: 206px;
+    height: 240px;
+    margin-bottom: 20px;
+    background-color: rgb(41, 216, 143);
+}
+.songListBox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.songListBox div img{
+    height: 206px;
+    width: 206px;
+    margin-bottom: 10px;
+}
+.songListBox div p{
+    
+}
