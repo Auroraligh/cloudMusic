@@ -67,6 +67,11 @@ window.onload = function () {
             }
         }, 30)
     }
+    // axios({
+    //     method:'GET',
+    //     url:'http://localhost:3000/playlist/catlist',
+    // })
+    // .then(res=>console.log(rep));
 
 
 }
